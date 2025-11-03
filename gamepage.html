@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook Game Card Container</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ <style>
+    .game-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-card {
+  width: 300px; /* Adjust the width as needed */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0; /* Background color for the card */
+}
+
+.game-image {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.game-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.game-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.player-count {
+  font-size: 16px;
+  color: #888;
+}
+ </style>
+<body>
+  <div class="game-card-container">
+    <div class="game-card">
+      <img src="assets/Game-img/castle-craft-img.jpg" alt="Game Image" class="game-image">
+      <div class="game-info">
+        <h2 class="game-title">Castle Craft</h2>
+        <p class="player-count">266K players</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

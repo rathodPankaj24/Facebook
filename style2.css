@@ -1,0 +1,16 @@
+.center{
+    width: 500px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.menu li a {
+    pointer-events: visible;
+    /* display: inline-block;
+    height: 24px; */
+}
