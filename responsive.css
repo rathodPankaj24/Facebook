@@ -1,0 +1,300 @@
+@media only screen and (max-width: 767px) {
+  .search input {
+    display: none;
+  }
+  /* .menu-ul li {
+      display: none;
+    } */
+  .bars-icon {
+    display: block !important;
+    /* padding: 10px 8px !important; */
+  }
+  /* .left-sec{
+      display: none !important;
+    } */
+  .container {
+    padding: 0;
+    margin-top: 80px;
+  }
+  .center {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .cards {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .card {
+    min-width: 140px;
+  }
+  .post {
+    position: static;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .post-img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: static;
+  }
+  .post-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+  }
+  .center-bottom {
+    width: 100%;
+  }
+  .first-icon {
+    background-color: rgba(240, 242, 245, 1);
+    border-radius: 50px;
+    opacity: 1;
+  }
+  .first-icon:last-child {
+    display: none;
+  }
+  .Post-Last {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    row-gap: 5px;
+    column-gap: 8px;
+  }
+  
+  .post-one {
+    /* padding: 8px; */
+    background-color: rgba(240, 242, 245, 1);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .post-one:nth-child(3){
+  display: none;
+}
+
+  header {
+    flex-wrap: wrap;
+    padding-top: 8px;
+  }
+
+  .left .search {
+    position: absolute;
+    right: 85px;
+    top: 5px;
+  }
+
+  .icon-menu {
+    position: absolute;
+    right: 45px;
+    top: 5px;
+  }
+
+  .icon2-menu {
+    position: absolute;
+    top: 5px;
+    right: 0;
+  }
+
+  .menu ul li {
+    /* padding-inline: 25px; */
+    padding: 10px 25px 5px 25px;
+  }
+
+  .menu-ul li a span img {
+    height: 20px;
+  }
+
+  .right .message,
+  .notify,
+  .logo-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo-img1 img {
+    height: 30px;
+  }
+
+  .left .search {
+    padding: 7px 7px;
+  }
+
+  .menu ul li {
+    /* padding-inline: 25px; */
+    padding: 10px 20px 5px 20px;
+  }
+
+  .right-ul li.icon-menu {
+    padding: 0;
+    margin: 6px;
+    background: none;
+  }
+  .right-ul li.icon2-menu {
+    /* padding: 0;
+    margin: 6px; */
+    background: none;
+  }
+
+  .group-post{
+    left: 0;
+  }
+
+  .group-list{
+    padding: 8px;
+  }
+
+  #group-post-section{
+    padding:  10px;
+  }
+
+  #group-post-section, #group-post-section .post{
+    /* max-width: 400px; */
+    width: auto;
+  }
+
+  .post-description p{
+    padding-left: 8px;
+  }
+
+ 
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ul.menu-ul li {
+    /* padding-inline: 25px; */
+    padding: 10px 25px 5px 25px;
+  }
+  .search input {
+    display: none;
+  }
+  /* .left-sec{
+        display: none ;
+    } */
+
+  .container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .icon2-menu {
+    opacity: 0;
+  }
+
+  .group-post{
+    left: 0;
+  }
+
+ 
+  
+}
+@media only screen and (max-width: 375px) {
+  .menu {
+    width: 100% !important;
+  }
+  .menu ul li {
+    padding: 10px 16px;
+  }
+
+  /* #group-post-section, #group-post-section .post{
+    max-width: 350px;
+    width: auto;
+  } */
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .left-sec {
+    display: block;
+  }
+
+  /* .icon-menu {
+       opacity: 0;
+    } */
+  .icon2-menu {
+    opacity: 0;
+  }
+
+
+
+  
+}
+
+
+@media (max-width:1024px) {
+  #gaming-center{
+    width: 65vw;
+  }
+
+  .game-card{
+    width: 209px;
+  }
+  .game-card-names{
+    width: 320px;
+  }
+}
+
+@media (max-width:768px) {
+  #gaming-center{
+    width: 100%;
+  }
+
+  .game-card{
+    width: 242px;
+  }
+
+  .game-card-names{
+    width: 368px;
+  }
+}
+
+@media (max-width:600px) {
+  #gaming-center{
+    width: 100%;
+  }
+
+  .game-cards{
+    padding: 10px;
+  }
+
+  .today h3{
+    padding-left: 10px;
+  }
+
+  .game-card,.game-card-names{
+    width: 100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+
+    .left .search input{
+        display: block;
+    }
+    .container{
+        justify-content: center;
+    }
+    .left-sec{
+     display: block;
+    }
+    .right-sec{
+     display: block;
+     width: 250px;
+     height: 100vh;
+
+    }
+} */
+
+
